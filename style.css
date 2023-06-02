@@ -1,0 +1,23 @@
+.choicesDiv {
+    cursor: pointer;
+}
+
+.choice-1,
+.choice-2,
+.choice-3,
+.choice-4 {
+    color: #212529;
+    background-color: #ced4da;
+    font-weight: 500;
+    transition: 0.37s;
+}
+
+.resultCorrect,
+.resultWrong,
+.resultJoker {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
